@@ -26,10 +26,10 @@ app.config['SECURITY_PASSWORD_SALT'] = 'a-very-secret-salt-for-passwords'
 serializer = URLSafeTimedSerializer(app.secret_key)
 
 # SMTP Configuration
-SMTP_SERVER = "smtp.office365.com"
-SMTP_PORT = 587
-SMTP_USER = "BD-PM-IT-Services@shvenergybd.com"
-SMTP_PASSWORD = "Sa@s&6812()0"
+SMTP_SERVER = ""
+SMTP_PORT = 
+SMTP_USER = ""
+SMTP_PASSWORD = ""
 # MSAL / SSO Configuration -
 # IMPORTANT: Fill these values from your Azure AD App Registration
 app.config['CLIENT_ID'] = "YOUR_AZURE_APP_CLIENT_ID"
@@ -2034,3 +2034,4 @@ The LFMS System
 
 if __name__ == '__main__':
     app.run(debug=True)
+
